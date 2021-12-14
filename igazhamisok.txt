@@ -1,0 +1,13 @@
+Igaz vagy hamis: A singleton egy objektum-orientált design pattern, amely azt a célt szolgálja, 
+    hogy futásidőben dőlhessen el, hogy milyen konkrét típust példányosítson a program.
+    -hamis
+
+
+Igaz vagy hamis: ha egy X osztály function() nevű tagfüggvénye protected láthatóságú, 
+    akkor az X-ből privát módon származó Y osztály tagfüggvényeiből a function() függvény nem hívható meg.
+    -hamis 
+
+Igaz vagy hamis: Ha egy MyClass osztályon belüli int típusú, value nevű tagváltozóhoz settert készítünk, 
+    akkor azt célszerű lehet az alábbi szignatúrával deklarálni:
+    MyClass& setValue(int);
+    -igaz
