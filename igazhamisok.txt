@@ -11,3 +11,14 @@ Igaz vagy hamis: Ha egy MyClass osztályon belüli int típusú, value nevű tag
     akkor azt célszerű lehet az alábbi szignatúrával deklarálni:
     MyClass& setValue(int);
     -igaz
+
+C++ standard template library kérdés: Ha a gyors beszúrás fontos, inkább std::list-et használjunk, mint std::vector osztályt. 
+    Ha viszont keresni szeretnénk, az std::set jobb, mint az std::list vagy std::vector - igaz, vagy hamis?
+    -igaz
+
+!!Ha van egy Base nevű szülőosztály, és egy abból publikusan származó Derived osztály, 
+    akkor egy Derived* vagy Derived& típusú változót bármikor dinamikusan kasztolhatunk 
+    Base* vagy Base& típusú változóra úgy, hogy az eredmény ne nullptr legyen és a program ne dobjon kivételt.
+!!Ha van egy Base nevű szülőosztály, és egy abból publikusan származó Derived osztály, 
+    akkor egy Base* vagy Base& típusú változót csak bizonyos esetekben kasztolhatunk dinamikusan 
+    Derived* vagy Derived& típusú változóra úgy, hogy ne nullptr-t kapjunk és a program ne dobjon kivételt.
